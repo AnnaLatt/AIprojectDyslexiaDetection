@@ -24,7 +24,7 @@ Usage: Users input written text for analysis to detect potential dyslexia indica
 Situations: Valuable in educational settings, assessments, and for individuals seeking early dyslexia screening.
 Users: Students, educators, and healthcare professionals concerned with dyslexia detection and support.
 
-![Study](/ProjectAiandeducation/sarah-noltner-4U3d6u_p-fE-unsplash.jpg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Faber-Castell_pencil_and_eraser.jpg/640px-Faber-Castell_pencil_and_eraser.jpg" width="300">
 
 
 Here's a code example, the full code is saved as codeforAiproject.py:
