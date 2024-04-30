@@ -14,8 +14,8 @@ Creating an AI model that detects dyslexia in students based on common error pat
 ## Background
 
 * Problem: Many individuals with dyslexia face challenges in academic and everyday settings due to undiagnosed conditions.
-Solution: Developing an AI model to identify common error patterns indicative of dyslexia, aiding in early detection and intervention.
-Motivation: Personal interest in leveraging AI for social good and improving accessibility in education.
+* Solution: Developing an AI model to identify common error patterns indicative of dyslexia, aiding in early detection and intervention.
+* Motivation: Personal interest in leveraging AI for social good and improving accessibility in education.
 
 
 ## How is it used?
