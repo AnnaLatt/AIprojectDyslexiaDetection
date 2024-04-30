@@ -35,10 +35,12 @@ Here's a code example, the full code is saved as codeforAiproject.py:
 
     'sheself': 'herself',
     'morrong': 'morning',
-    'restaurang': 'restaurant'
+    'restaurang ksjsj': 'restaurant'
 }
 
-def identify_errors(text):
+ 'sheself': 'herself',
+    'morrong': 'morning',
+    'restaurang ksjsj': 'restaurant'def identify_errors(text):
     words = text.split()
     errors = []
 
