@@ -24,12 +24,8 @@ Usage: Users input written text for analysis to detect potential dyslexia indica
 Situations: Valuable in educational settings, assessments, and for individuals seeking early dyslexia screening.
 Users: Students, educators, and healthcare professionals concerned with dyslexia detection and support.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
 If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+<img src="[https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg](https://www.istockphoto.com/fi/valokuva/naisopiskelija-gm1264296727-370253806)" width="300">
 
 Here's a code example, the full code is saved as codeforAiproject.py:
 
