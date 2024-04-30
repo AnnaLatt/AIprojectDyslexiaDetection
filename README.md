@@ -4,26 +4,25 @@ Copy the template, paste it to your GitHub README and edit! -->
 
 # Project Title
 
-Final project for the Building AI course
+Dyslexia Detection Ai Model
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+Creating an AI model that detects dyslexia in students based on common error patterns in written text, aiming to provide early identification and support for individuals with dyslexia.
 
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+* Problem: Many individuals with dyslexia face challenges in academic and everyday settings due to undiagnosed conditions.
+Solution: Developing an AI model to identify common error patterns indicative of dyslexia, aiding in early detection and intervention.
+Motivation: Personal interest in leveraging AI for social good and improving accessibility in education.
 
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+Usage: Users input written text for analysis to detect potential dyslexia indicators.
+Situations: Valuable in educational settings, assessments, and for individuals seeking early dyslexia screening.
+Users: Students, educators, and healthcare professionals concerned with dyslexia detection and support.
 
 Images will make your README look nice!
 Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
@@ -32,45 +31,64 @@ Once you upload an image to your repository, you can link link to it like this (
 If you need to resize images, you have to use an HTML tag, like this:
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
 
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
+Here's a code example, the full code is saved as codeforAiproject.py:
 
-   totPop = sum(pop)
-   totFish = sum(fishers)
+    'sheself': 'herself',
+    'morrong': 'morning',
+    'restaurang': 'restaurant'
+}
 
-   # write your solution here
+def identify_errors(text):
+    words = text.split()
+    errors = []
 
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
+    for word in words:
+        if word.lower() in error_patterns:
+            errors.append((word, error_patterns[word.lower()]))
 
-main()
-```
+    return errors
+
+def flag_dyslexia(errors, threshold=3):
+    if len(errors) >= threshold:
+        print("Warning: Dyslexia may be a possibility based on the identified words.")
+        print("Incorrect words:")
+        for word, correction in errors:
+            print(f"'{word}' should be '{correction}'")
+    else:
+        print("No dyslexia flagged. Incorrect words:")
+        for word, correction in errors:
+            print(f"'{word}' should be '{correction}'")
+
+# Example usage
+text = "She is playing wiht her friens at the place and they are supportive to every student and almoust all the teahers."
+errors = identify_errors(text)
+flag_dyslexia(errors, threshold=3)
 
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
+Data: A master's degree on the typical erros made by dyslexics in addition to my 15 years experience as an English teacher.
+AI Methods: Utilizing pattern matching and comparison algorithms for error identification.
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+
+If you need to use links, here's an example:
+[Master's Thesisby Heidi Valasjoki on Dyslexia and English as a Foreign Language](https://trepo.tuni.fi/bitstream/handle/10024/79113/gradu02527.pdf?sequence=1)
+
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+Limitations: The model may not capture all dyslexia variations or account for individual differences.
+Ethical Considerations: Ensuring privacy and sensitivity in handling dyslexia-related data.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+Growth: Enhance the model with more error patterns and expand its application to diverse language contexts.
+Skills Needed: Further AI development, collaboration with dyslexia experts, and data privacy expertise.
 
 
 ## Acknowledgments
+
+Heidi Valasjoki and her thesis on Dyslexia and English as a Foreign Language
+
 
 * list here the sources of inspiration 
 * do not use code, images, data etc. from others without permission
