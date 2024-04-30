@@ -25,7 +25,7 @@ Situations: Valuable in educational settings, assessments, and for individuals s
 Users: Students, educators, and healthcare professionals concerned with dyslexia detection and support.
 
 If you need to resize images, you have to use an HTML tag, like this:
-<img src="[https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg](https://www.istockphoto.com/fi/valokuva/naisopiskelija-gm1264296727-370253806)" width="300">
+<img src="[https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Passend_leren.webp/480px-Passend_leren.webp.png]
 
 Here's a code example, the full code is saved as codeforAiproject.py:
 
