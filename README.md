@@ -33,14 +33,12 @@ If you need to resize images, you have to use an HTML tag, like this:
 
 Here's a code example, the full code is saved as codeforAiproject.py:
 
-    'sheself': 'herself',
+   'sheself': 'herself',
     'morrong': 'morning',
-    'restaurang ksjsj': 'restaurant'
+    'restaurang': 'restaurant'
 }
 
- 'sheself': 'herself',
-    'morrong': 'morning',
-    'restaurang ksjsj': 'restaurant'def identify_errors(text):
+def identify_errors(text):
     words = text.split()
     errors = []
 
@@ -60,6 +58,11 @@ def flag_dyslexia(errors, threshold=3):
         print("No dyslexia flagged. Incorrect words:")
         for word, correction in errors:
             print(f"'{word}' should be '{correction}'")
+
+# Example usage
+text = "She is playing wiht her friens at the place and they are supportive to every student and almoust all the teahers."
+errors = identify_errors(text)
+flag_dyslexia(errors, threshold=3)
 
 # Example usage
 text = "She is playing wiht her friens at the place and they are supportive to every student and almoust all the teahers."
