@@ -13,16 +13,17 @@ Creating an AI model that detects dyslexia in students based on common error pat
 
 ## Background
 
-* Problem: Many individuals with dyslexia face challenges in academic and everyday settings due to undiagnosed conditions.
-* Solution: Developing an AI model to identify common error patterns indicative of dyslexia, aiding in early detection and intervention.
-* Motivation: Personal interest in leveraging AI for social good and improving accessibility in education.
+Detecting dyslexia and flagging it is a challenging process in comprehensive and upper secondary schools, where I have worked as an English teacher for years. The lack of resources and the increasing number of students per group have compounded this issue. Introducing a system that can automatically flag potential learning difficulties among learners would greatly facilitate the identification process and guide students towards formal testing.
+
+Many individuals with dyslexia encounter obstacles in academic and daily life settings due to undiagnosed conditions. For instance, common errors include misspelling words like 'witch' instead of 'which', 'teh' instead of 'the', and 'wnat' instead of 'want'. These mistakes can be indicative of dyslexia, but they are not always easy to spot. A system that can automatically identify these errors and flag them for further investigation would be a valuable tool in the detection and support of individuals with dyslexia.
+
+The goal of such a system is to improve the identification and support for individuals with dyslexia. This can be achieved by developing an AI model that recognizes common error patterns associated with dyslexia, aiding in early detection and intervention. The system would be particularly useful in educational settings. Users who may benefit from this include students, educators, and healthcare professionals concerned with dyslexia detection and support.
 
 
 ## How is it used?
 
-Usage: Users input written text for analysis to detect potential dyslexia indicators.
-Situations: Valuable in educational settings, assessments, and for individuals seeking early dyslexia screening.
-Users: Students, educators, and healthcare professionals concerned with dyslexia detection and support.
+Users such as teachers can input a written text from a student for analysis to detect potential dyslexia indicators, which would be valuable in educational settings, assessments, and for individuals seeking early dyslexia screening. The target users for this system include English teachers who are concerned with the early detection and support of individuals with dyslexia. For example, a student might input the following text: "I wnat to lrean how to read and write bettar. Teh boooks in my class are realy booring and I have a hard time folowing along. Somtimes I get confussed and cant remeber the diffrences between words like 'their' and 'thier'. I hope there is a way to get help with this." In this text, the system would flag words like 'wnat', 'lrean', 'teh', 'bettar', 'booring', 'folowing', 'somtimes', 'confussed', 'remeber', 'diffrences', 'their', and 'thier' as potential indicators of dyslexia, which could lead to them being guided towards further assessment and support.
+
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Faber-Castell_pencil_and_eraser.jpg/640px-Faber-Castell_pencil_and_eraser.jpg" width="300">
 
@@ -62,8 +63,7 @@ Here's a code example, the full code is saved as codeforAiproject.py:
 
 
 ## Data sources and AI methods
-Data: A master's degree on the typical erros made by dyslexics in addition to my 15 years experience as an English teacher.
-AI Methods: Utilizing pattern matching and comparison algorithms for error identification.
+Data used is a master's degree on the typical erros made by dyslexics in addition to my 15 years experience as an English teacher. It's worth noting that the data I've used to develop this system is limited, mainly coming from one master's thesis and my own observations of learning difficulties during my teaching career. I'm prioritizing the accuracy of the data over the amount of data, so that the patterns we identify are trustworthy indicators of dyslexia. The AI methods involve the use of pattern matching and comparison algorithms to identify errors.
 
 
 If you need to use links, here's an example:
@@ -72,22 +72,15 @@ If you need to use links, here's an example:
 
 ## Challenges
 
-Limitations: The model may not capture all dyslexia variations or account for individual differences.
-Ethical Considerations: Ensuring privacy and sensitivity in handling dyslexia-related data.
+The model developed may have limitations in capturing all the variations of dyslexia or accounting for individual differences. As such, the system would need to be continuously refined and improved. Additionally, there are important ethical considerations to address, such as ensuring privacy and sensitivity in handling any data related to dyslexia. Maintaining the confidentiality and appropriate use of such sensitive information would be crucial.
 
 ## What next?
 
-Growth: Enhance the model with more error patterns and expand its application to diverse language contexts.
-Skills Needed: Further AI development, collaboration with dyslexia experts, and data privacy expertise.
+The model has the potential to improve by adding more error patterns and broadening its use to different language settings. Skills required include advancing AI technology, working together with dyslexia specialists, and having knowledge in safeguarding data privacy.
 
 
 ## Acknowledgments
 
 Heidi Valasjoki and her thesis on Dyslexia and English as a Foreign Language
+picture: [Fabr Castell by Hawyih]([https://commons.wikimedia.org/wiki/File:Faber-Castell_pencil_and_eraser.jpg#filelinks]/ [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
 
-
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Fabr Castell by Hawyih]([https://commons.wikimedia.org/wiki/File:Faber-Castell_pencil_and_eraser.jpg#filelinks]/ [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
