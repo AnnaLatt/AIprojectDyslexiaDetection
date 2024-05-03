@@ -80,7 +80,7 @@ The model has the potential to improve by adding more error patterns and broaden
 
 ## Acknowledgments
 
-Heidi Valasjoki and her thesis on Dyslexia and English as a Foreign Language (https://trepo.tuni.fi/bitstream/handle/10024/79113/gradu02527.pdf?sequence=1)
+[Heidi Valasjoki and her thesis on Dyslexia and English as a Foreign Language](https://trepo.tuni.fi/bitstream/handle/10024/79113/gradu02527.pdf?sequence=1)
 
 picture: [Fabr Castell by Hawyih](https://commons.wikimedia.org/wiki/File:Faber-Castell_pencil_and_eraser.jpg#filelinks) / [CC BY 1.0](https://creativecommons.org/licenses/by/1.0)
 
