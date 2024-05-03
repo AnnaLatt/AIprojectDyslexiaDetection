@@ -2,7 +2,7 @@
 created by Reaktor Innovations and University of Helsinki. 
 Copy the template, paste it to your GitHub README and edit! -->
 
-# AI-Powered Model for Detecting Dyslexia in English as a Foreign Language (EFL) Learners
+# AI-Powered Model for Detecting Dyslexia in English as a EFL
 
 Final project for the Building AI course.
 
