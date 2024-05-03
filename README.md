@@ -64,7 +64,7 @@ Here's an example of the code, the full code is saved as codeforAiproject.py :
 
 ## Data sources and AI methods
 
-The data that was used is a master's degree by Heidi Valasjoki on Dyslexia and English as a Foreign Language in addition to my 15 years experience as an English teacher. It's worth noting that the data I've used to develop this system is limited, mainly coming from one master's thesis and my own observations of learning difficulties during my teaching career. I'm prioritizing the accuracy of the data over the amount of data, so that the patterns we identify are trustworthy indicators of dyslexia. The AI methods involve the use of pattern matching and comparison algorithms to identify errors.
+The data that was used is from a master's degree by Heidi Valasjoki on Dyslexia and English as a Foreign Language in addition to my 15 years experience as an English teacher. It's worth noting that the data I've used to develop this system is limited, mainly coming from one master's thesis and my own observations of learning difficulties during my teaching career. I'm prioritizing the accuracy of the data over the amount of data, so that the patterns we identify are trustworthy indicators of dyslexia. The AI methods involve the use of pattern matching and comparison algorithms to identify errors.
 
 Here is the masters tehsis in question: [Master's Thesis by Heidi Valasjoki on Dyslexia and English as a Foreign Language](https://trepo.tuni.fi/bitstream/handle/10024/79113/gradu02527.pdf?sequence=1)
 
