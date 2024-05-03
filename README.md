@@ -84,5 +84,5 @@ Heidi Valasjoki and her thesis on Dyslexia and English as a Foreign Language (ht
 
 picture: [Fabr Castell by Hawyih]([https://commons.wikimedia.org/wiki/File:Faber-Castell_pencil_and_eraser.jpg#filelinks]/ [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
 
-I used [Perplexity.ai ](https://perplexity.ai) to help create the Python code for the dyslexia detection AI model.
+I used [Perplexity](https://perplexity.ai) to help create the Python code for the dyslexia detection AI model.
 
