@@ -84,3 +84,5 @@ picture: [Fabr Castell by Hawyih](https://commons.wikimedia.org/wiki/File:Faber-
 
 I used [Perplexity](https://perplexity.ai) to help create the Python code for the dyslexia detection AI model.
 
+I utilized [Replit](https://replit.com/~) to verify the functionality of the code. Additionally, I uploaded the code to GitHub.
+
