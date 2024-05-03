@@ -8,7 +8,7 @@ Dyslexia Detection Ai Model
 
 ## Summary
 
-Creating an AI model that detects dyslexia in students based on common error patterns in written text, aiming to provide early identification and support for individuals with dyslexia.
+Creating an AI model that detects dyslexia in English as a foreign lamguagae students based on common error patterns in written text, aiming to provide early identification and support for individuals with dyslexia.
 
 
 ## Background
