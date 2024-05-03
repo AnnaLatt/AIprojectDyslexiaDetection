@@ -8,21 +8,21 @@ Dyslexia Detection Ai Model
 
 ## Summary
 
-Creating an AI model that detects dyslexia in English as a foreign lamguagae students based on common error patterns in written text, aiming to provide early identification and support for individuals with dyslexia.
+Developing an AI-powered system to assist teachers in identifying signs of dyslexia in English language learners by analyzing students' written work and flagging common error patterns. This model aims to guide students towards formal assessment by providing teachers with early identification tools, enabling timely support and interventions for improved educational outcomes.
 
 
 ## Background
 
-Detecting dyslexia and flagging it is a challenging process in comprehensive and upper secondary schools, where I have worked as an English teacher for years. The lack of resources and the increasing number of students per group have compounded this issue. Introducing a system that can automatically flag potential learning difficulties among learners would greatly facilitate the identification process and guide students towards formal testing.
+Detecting dyslexia is a challenging process in comprehensive and upper secondary schools, where I have worked as an English teacher for years. The lack of resources and the increasing number of students per group have compounded this issue. In Finland, where dyslexia and learning difficulties are identified using Finnish materials, there is a lack of available resources on common dyslexia-related mistakes in English. This lack of information can make it difficult for English teachers to get these observations further studied and addressed. 
 
-Many individuals with dyslexia encounter obstacles in academic and daily life settings due to undiagnosed conditions. For instance, common errors include misspelling words like 'witch' instead of 'which', 'teh' instead of 'the', and 'wnat' instead of 'want'. These mistakes can be indicative of dyslexia, but they are not always easy to spot. A system that can automatically identify these errors and flag them for further investigation would be a valuable tool in the detection and support of individuals with dyslexia.
+Introducing a system that can automatically flag potential learning difficulties among learners would greatly facilitate the identification process and guide students towards formal testing. For instance, common errors include misspelling words like 'witch' instead of 'which', 'teh' instead of 'the', and 'almoust' instead of 'almost'. These mistakes can be indicative of dyslexia, but they are not always easy to spot. A system that can automatically identify these errors and flag them for further investigation would be a valuable tool in the detection and support of individuals with dyslexia.
 
-The goal of such a system is to improve the identification and support for individuals with dyslexia. This can be achieved by developing an AI model that recognizes common error patterns associated with dyslexia, aiding in early detection and intervention. The system would be particularly useful in educational settings. Users who may benefit from this include students, educators, and healthcare professionals concerned with dyslexia detection and support.
+The goal of such a system is to improve the identification and support for individuals with dyslexia.  Many individuals with dyslexia encounter obstacles in academic and daily life settings due to undiagnosed conditions. Users who may benefit from this include students, educators, and healthcare professionals concerned with dyslexia detection and support.
 
 
 ## How is it used?
 
-Users such as teachers can input a written text from a student for analysis to detect potential dyslexia indicators, which would be valuable in educational settings, assessments, and for individuals seeking early dyslexia screening. The target users for this system include English teachers who are concerned with the early detection and support of individuals with dyslexia. For example, a student might input the following text: "I wnat to lrean how to read and write bettar. Teh boooks in my class are realy booring and I have a hard time folowing along. Somtimes I get confussed and cant remeber the diffrences between words like 'their' and 'thier'. I hope there is a way to get help with this." In this text, the system would flag words like 'wnat', 'lrean', 'teh', 'bettar', 'booring', 'folowing', 'somtimes', 'confussed', 'remeber', 'diffrences', 'their', and 'thier' as potential indicators of dyslexia, which could lead to them being guided towards further assessment and support.
+Users such as teachers can input a written text from a student for analysis to detect potential dyslexia indicators. The target users for this system include English teachers who are concerned with the early detection and support of individuals with dyslexia. For example, a student might input the following text: "I wnat to lrean how to read and write bettar. Teh boooks in my class are realy booring and I have a hard time folowing along. Somtimes I get confussed and cant remeber the diffrences between words like 'their' and 'thier'. I hope there is a way to get help with this." In this text, the system would flag words like 'wnat', 'lrean', 'teh', 'bettar', 'booring', 'folowing', 'somtimes', 'confussed', 'remeber', 'diffrences', 'their', and 'thier' as potential indicators of dyslexia, which could lead to them being guided towards further assessment and support.
 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Faber-Castell_pencil_and_eraser.jpg/640px-Faber-Castell_pencil_and_eraser.jpg" width="300">
@@ -63,7 +63,8 @@ Here's a code example, the full code is saved as codeforAiproject.py:
 
 
 ## Data sources and AI methods
-Data used is a master's degree on the typical erros made by dyslexics in addition to my 15 years experience as an English teacher. It's worth noting that the data I've used to develop this system is limited, mainly coming from one master's thesis and my own observations of learning difficulties during my teaching career. I'm prioritizing the accuracy of the data over the amount of data, so that the patterns we identify are trustworthy indicators of dyslexia. The AI methods involve the use of pattern matching and comparison algorithms to identify errors.
+
+The data that was used is a master's degree on the typical erros made by dyslexics in addition to my 15 years experience as an English teacher. It's worth noting that the data I've used to develop this system is limited, mainly coming from one master's thesis and my own observations of learning difficulties during my teaching career. I'm prioritizing the accuracy of the data over the amount of data, so that the patterns we identify are trustworthy indicators of dyslexia. The AI methods involve the use of pattern matching and comparison algorithms to identify errors.
 
 
 If you need to use links, here's an example:
