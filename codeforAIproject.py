@@ -2,13 +2,10 @@
 error_patterns = {
     'witch': 'which',
     'teh': 'the',
-    'wnat': 'want',
     'thier': 'their',
     'waht': 'what',
     'wher': 'where',
     'tehre': 'there',
-    'teh ': 'the ',
-    ' teh': ' the',
     'lot of': 'a lot of',
     'intresting': 'interesting',
     'execpt': 'except',
