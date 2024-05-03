@@ -22,13 +22,13 @@ The goal of such a system is to improve the identification and support for indiv
 
 ## How is it used?
 
-Users such as teachers can input a written text from a student for analysis to detect potential dyslexia indicators. The target users for this system include English teachers who are concerned with the early detection and support of individuals with dyslexia. For example, a student might input the following text: "I wnat to lrean how to read and write bettar. Teh boooks in my class are realy booring and I have a hard time folowing along. Somtimes I get confussed and cant remeber the diffrences between words like 'their' and 'thier'. I hope there is a way to get help with this." In this text, the system would flag words like 'wnat', 'lrean', 'teh', 'bettar', 'booring', 'folowing', 'somtimes', 'confussed', 'remeber', 'diffrences', 'their', and 'thier' as potential indicators of dyslexia, which could lead to them being guided towards further assessment and support.
+Users such as teachers can input a written text from a student for analysis to detect potential dyslexia indicators. The target users for this system include English teachers who are concerned with the early detection and support of individuals with dyslexia. For example, a student might input the following text: "I wnat to lrean how to read and write bettar. Teh boooks in my class are realy booring and I have a hard time folowing along. Somtimes I get confussed and cant remeber the diffrences between words like 'their' and 'thier'. I hope there is a way to get help with this." In this text, the system would flag words like 'wnat', 'lrean', 'teh', 'bettar', 'booring', 'folowing', 'somtimes', 'confussed', 'remeber', 'diffrences', 'their', and 'thier' as potential indicators of dyslexia.  When three mistakes are detected, the system presents the warning: "Dyslexia may be a possibility based on the identified words."
 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Faber-Castell_pencil_and_eraser.jpg/640px-Faber-Castell_pencil_and_eraser.jpg" width="300">
 
 
-Here's a code example, the full code is saved as codeforAiproject.py:
+Here's an example of the code, the full code is saved as codeforAiproject.py:
 
       'sheself': 'herself',
        'morrong': 'morning',
@@ -82,10 +82,7 @@ The model has the potential to improve by adding more error patterns and broaden
 
 Heidi Valasjoki and her thesis on Dyslexia and English as a Foreign Language (https://trepo.tuni.fi/bitstream/handle/10024/79113/gradu02527.pdf?sequence=1)
 
-picture: [Fabr Castell by Hawyih](https://commons.wikimedia.org/wiki/File:Faber-Castell_pencil_and_eraser.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-
-
-[CC BY 1.0](https://creativecommons.org/licenses/by/1.0)
+picture: [Fabr Castell by Hawyih](https://commons.wikimedia.org/wiki/File:Faber-Castell_pencil_and_eraser.jpg#filelinks) / [CC BY 1.0](https://creativecommons.org/licenses/by/1.0)
 
 I used [Perplexity](https://perplexity.ai) to help create the Python code for the dyslexia detection AI model.
 
