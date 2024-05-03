@@ -66,14 +66,12 @@ Here's a code example, the full code is saved as codeforAiproject.py:
 
 The data that was used is a master's degree on the typical erros made by dyslexics in addition to my 15 years experience as an English teacher. It's worth noting that the data I've used to develop this system is limited, mainly coming from one master's thesis and my own observations of learning difficulties during my teaching career. I'm prioritizing the accuracy of the data over the amount of data, so that the patterns we identify are trustworthy indicators of dyslexia. The AI methods involve the use of pattern matching and comparison algorithms to identify errors.
 
-
-If you need to use links, here's an example:
-[Master's Thesisby Heidi Valasjoki on Dyslexia and English as a Foreign Language](https://trepo.tuni.fi/bitstream/handle/10024/79113/gradu02527.pdf?sequence=1)
+Here is the masters tehsis in question: [Master's Thesisby Heidi Valasjoki on Dyslexia and English as a Foreign Language](https://trepo.tuni.fi/bitstream/handle/10024/79113/gradu02527.pdf?sequence=1)
 
 
 ## Challenges
 
-The model developed may have limitations in capturing all the variations of dyslexia or accounting for individual differences. As such, the system would need to be continuously refined and improved. Additionally, there are important ethical considerations to address, such as ensuring privacy and sensitivity in handling any data related to dyslexia. Maintaining the confidentiality and appropriate use of such sensitive information would be crucial.
+The model developed may have limitations in capturing all the variations of dyslexia or accounting for individual differences. The dyslexia detection model could potentially produce false positives if it incorrectly identifies individuals without dyslexia as having the condition. As such, the system would need to be continuously refined and improved. Additionally, there are important ethical considerations to address, such as ensuring privacy and sensitivity in handling any data related to dyslexia. Maintaining the confidentiality and appropriate use of such sensitive information would be crucial.
 
 ## What next?
 
@@ -85,4 +83,6 @@ The model has the potential to improve by adding more error patterns and broaden
 Heidi Valasjoki and her thesis on Dyslexia and English as a Foreign Language (https://trepo.tuni.fi/bitstream/handle/10024/79113/gradu02527.pdf?sequence=1)
 
 picture: [Fabr Castell by Hawyih]([https://commons.wikimedia.org/wiki/File:Faber-Castell_pencil_and_eraser.jpg#filelinks]/ [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
+
+I used [Perplexity.ai ](https://perplexity.ai) to help create the Python code for the dyslexia detection AI model.
 
